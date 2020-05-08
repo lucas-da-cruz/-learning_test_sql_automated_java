@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="hsqldb.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hsqldb.jar!/"/>
+	</lib>
+	<lib name="antlr-2.7.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/antlr-2.7.7.jar!/"/>
+	</lib>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="hibernate-commons-annotations-4.0.1.Final.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/hibernate-commons-annotations-4.0.1.Final.jar!/"/>
+	</lib>
+	<lib name="hibernate-core-4.1.7.Final.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/hibernate-core-4.1.7.Final.jar!/"/>
+	</lib>
+	<lib name="hibernate-jpa-2.0-api-1.0.1.Final.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar!/"/>
+	</lib>
+	<lib name="javassist-3.15.0-GA.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/javassist-3.15.0-GA.jar!/"/>
+	</lib>
+	<lib name="jboss-logging-3.1.0.GA.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/jboss-logging-3.1.0.GA.jar!/"/>
+	</lib>
+	<lib name="jboss-transaction-api_1.1_spec-1.0.0.Final.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hibernate/jboss-transaction-api_1.1_spec-1.0.0.Final.jar!/"/>
+	</lib>
+	<lib name="mockito-core-1.8.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mockito-core-1.8.5.jar!/"/>
+	</lib>
+	<lib name="objenesis-1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/objenesis-1.0.jar!/"/>
+	</lib>
+</component>

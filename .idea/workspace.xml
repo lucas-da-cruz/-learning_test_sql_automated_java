@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1da718b-3915-4c4d-bcbf-592a125ae33b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/pm73/dataBuilder/LeilaoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTestWithDataBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/pm73/dao/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pm73/dao/UsuarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/br/com/pm73/dao/UsuarioDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/pm73/dao/UsuarioDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caelum.db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/caelum.db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caelum.db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/caelum.db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +18,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UsuarioDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/UsuarioDaoTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Lance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dominio/Lance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeilaoDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="355" column="5" selection-start-line="355" selection-start-column="5" selection-end-line="355" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeilaoDaoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java">
+      <file leaf-file-name="LeilaoDaoTestWithDataBuilder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTestWithDataBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+            <state relative-caret-position="939">
+              <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeilaoBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dataBuilder/LeilaoBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +67,8 @@
       <file leaf-file-name="Leilao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dominio/Leilao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="251">
+              <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
               <folding>
                 <element signature="e#1024#1025#0" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
@@ -58,33 +80,10 @@
       <file leaf-file-name="LeilaoDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/LeilaoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CriaTabelas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/pm73/curso/CriaTabelas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsuarioDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/UsuarioDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="154">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
               <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#1011#1041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +101,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>novo</find>
+      <find>lan</find>
+      <find>la</find>
+      <find>comLance</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,13 +114,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/br/com/pm73/dao/UsuarioDao.java" />
         <option value="$PROJECT_DIR$/test/br/com/pm73/dao/UsuarioDaoTest.java" />
+        <option value="$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTestWithDataBuilder.java" />
+        <option value="$PROJECT_DIR$/src/br/com/pm73/dataBuilder/LeilaoBuilder.java" />
         <option value="$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="865" />
-    <option name="width" value="742" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-167" />
+    <option name="y" value="245" />
+    <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,6 +167,20 @@
             <path>
               <item name="pm73-dao" type="b2602c69:ProjectViewProjectNode" />
               <item name="pm73-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pm73" type="462c0819:PsiDirectoryNode" />
+              <item name="dataBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pm73-dao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pm73-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pm73" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pm73-dao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pm73-dao" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,9 +200,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,11 +228,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LeilaoDaoTest.testaLimiteDia7Antigo">
+  <component name="RunManager" selected="JUnit.LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LeilaoDaoTest.deveContarNenhumLeilaoEncerrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeilaoDaoTestWithDataBuilder.naoDeveTrazerLeiloesEncerradosNoPeriodo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pm73-dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.pm73.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.pm73.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.pm73.dao.LeilaoDaoTestWithDataBuilder" />
+      <option name="METHOD_NAME" value="naoDeveTrazerLeiloesEncerradosNoPeriodo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pm73-dao" />
       <extension name="coverage">
         <pattern>
@@ -225,7 +267,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.pm73.dao" />
       <option name="MAIN_CLASS_NAME" value="br.com.pm73.dao.LeilaoDaoTest" />
-      <option name="METHOD_NAME" value="deveContarNenhumLeilaoEncerrado" />
+      <option name="METHOD_NAME" value="deveTrazerLeiloesEncerradosNoDisputadosEntre" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -236,7 +278,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LeilaoDaoTest.deveTestarLeiloesAntigos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pm73-dao" />
       <extension name="coverage">
         <pattern>
@@ -248,7 +290,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.pm73.dao" />
       <option name="MAIN_CLASS_NAME" value="br.com.pm73.dao.LeilaoDaoTest" />
-      <option name="METHOD_NAME" value="deveTestarLeiloesAntigos" />
+      <option name="METHOD_NAME" value="deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -259,7 +301,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LeilaoDaoTest.retornaQtdeLeiloesNovos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeilaoDaoTest.deveTrazerLeiloesNoListaLeiloesDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pm73-dao" />
       <extension name="coverage">
         <pattern>
@@ -271,7 +313,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.pm73.dao" />
       <option name="MAIN_CLASS_NAME" value="br.com.pm73.dao.LeilaoDaoTest" />
-      <option name="METHOD_NAME" value="retornaQtdeLeiloesNovos" />
+      <option name="METHOD_NAME" value="deveTrazerLeiloesNoListaLeiloesDoUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -282,7 +324,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LeilaoDaoTest.testaLimiteDia7Antigo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pm73-dao" />
       <extension name="coverage">
         <pattern>
@@ -294,31 +336,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.pm73.dao" />
       <option name="MAIN_CLASS_NAME" value="br.com.pm73.dao.LeilaoDaoTest" />
-      <option name="METHOD_NAME" value="testaLimiteDia7Antigo" />
+      <option name="METHOD_NAME" value="listaSomenteOsLeiloesDoUsuario" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UsuarioDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pm73-dao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.pm73.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.com.pm73.dao" />
-      <option name="MAIN_CLASS_NAME" value="br.com.pm73.dao.UsuarioDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -367,19 +386,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UsuarioDaoTest" />
-      <item itemvalue="JUnit.LeilaoDaoTest.deveContarNenhumLeilaoEncerrado" />
-      <item itemvalue="JUnit.LeilaoDaoTest.retornaQtdeLeiloesNovos" />
-      <item itemvalue="JUnit.LeilaoDaoTest.deveTestarLeiloesAntigos" />
-      <item itemvalue="JUnit.LeilaoDaoTest.testaLimiteDia7Antigo" />
+      <item itemvalue="JUnit.LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntre" />
+      <item itemvalue="JUnit.LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado" />
+      <item itemvalue="JUnit.LeilaoDaoTest.deveTrazerLeiloesNoListaLeiloesDoUsuario" />
+      <item itemvalue="JUnit.LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" />
+      <item itemvalue="JUnit.LeilaoDaoTestWithDataBuilder.naoDeveTrazerLeiloesEncerradosNoPeriodo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LeilaoDaoTest.testaLimiteDia7Antigo" />
-        <item itemvalue="JUnit.LeilaoDaoTest.deveTestarLeiloesAntigos" />
-        <item itemvalue="JUnit.LeilaoDaoTest.retornaQtdeLeiloesNovos" />
-        <item itemvalue="JUnit.LeilaoDaoTest.deveContarNenhumLeilaoEncerrado" />
-        <item itemvalue="JUnit.UsuarioDaoTest" />
+        <item itemvalue="JUnit.LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" />
+        <item itemvalue="JUnit.LeilaoDaoTestWithDataBuilder.naoDeveTrazerLeiloesEncerradosNoPeriodo" />
+        <item itemvalue="JUnit.LeilaoDaoTest.deveTrazerLeiloesNoListaLeiloesDoUsuario" />
+        <item itemvalue="JUnit.LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado" />
+        <item itemvalue="JUnit.LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntre" />
       </list>
     </recent_temporary>
   </component>
@@ -397,35 +416,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeilaoDaoTest_deveContarLeiloesNaoEncerrados - 2020.05.08 at 12h 02m 27s.xml">
-      <configuration name="LeilaoDaoTest.deveContarLeiloesNaoEncerrados" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado - 2020.05.11 at 11h 44m 37s.xml">
+      <configuration name="LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuarioDaoTest - 2020.05.08 at 12h 13m 35s.xml">
-      <configuration name="UsuarioDaoTest" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado - 2020.05.11 at 11h 44m 58s.xml">
+      <configuration name="LeilaoDaoTest.deveTrazerLeiloesEncerradosNoDisputadosEntreQueEstejaEncerrado" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_deveContarNenhumLeilaoEncerrado - 2020.05.08 at 12h 17m 47s.xml">
-      <configuration name="LeilaoDaoTest.deveContarNenhumLeilaoEncerrado" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_deveTrazerLeiloesNoListaLeiloesDoUsuario - 2020.05.11 at 12h 10m 48s.xml">
+      <configuration name="LeilaoDaoTest.deveTrazerLeiloesNoListaLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_deveContarNenhumLeilaoEncerrado - 2020.05.08 at 12h 19m 04s.xml">
-      <configuration name="LeilaoDaoTest.deveContarNenhumLeilaoEncerrado" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_deveTrazerLeiloesNoListaLeiloesDoUsuario - 2020.05.11 at 12h 11m 35s.xml">
+      <configuration name="LeilaoDaoTest.deveTrazerLeiloesNoListaLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_retornaQtdeLeiloesNovos - 2020.05.08 at 12h 23m 13s.xml">
-      <configuration name="LeilaoDaoTest.retornaQtdeLeiloesNovos" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_deveTrazerLeiloesNoListaLeiloesDoUsuario - 2020.05.11 at 12h 12m 05s.xml">
+      <configuration name="LeilaoDaoTest.deveTrazerLeiloesNoListaLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_retornaQtdeLeiloesNovos - 2020.05.08 at 12h 24m 08s.xml">
-      <configuration name="LeilaoDaoTest.retornaQtdeLeiloesNovos" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_listaSomenteOsLeiloesDoUsuario - 2020.05.11 at 12h 23m 00s.xml">
+      <configuration name="LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_retornaQtdeLeiloesNovos - 2020.05.08 at 12h 24m 23s.xml">
-      <configuration name="LeilaoDaoTest.retornaQtdeLeiloesNovos" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_listaSomenteOsLeiloesDoUsuario - 2020.05.11 at 12h 24m 21s.xml">
+      <configuration name="LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_deveTestarLeiloesAntigos - 2020.05.08 at 12h 30m 51s.xml">
-      <configuration name="LeilaoDaoTest.deveTestarLeiloesAntigos" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTestWithDataBuilder_naoDeveTrazerLeiloesEncerradosNoPeriodo - 2020.05.11 at 12h 24m 32s.xml">
+      <configuration name="LeilaoDaoTestWithDataBuilder.naoDeveTrazerLeiloesEncerradosNoPeriodo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_testaLimiteDia7Antigo - 2020.05.08 at 12h 33m 57s.xml">
-      <configuration name="LeilaoDaoTest.testaLimiteDia7Antigo" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_listaSomenteOsLeiloesDoUsuario - 2020.05.11 at 12h 26m 48s.xml">
+      <configuration name="LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeilaoDaoTest_testaLimiteDia7Antigo - 2020.05.08 at 12h 34m 35s.xml">
-      <configuration name="LeilaoDaoTest.testaLimiteDia7Antigo" configurationId="JUnit" />
+    <history-entry file="LeilaoDaoTest_listaSomenteOsLeiloesDoUsuario - 2020.05.11 at 12h 34m 22s.xml">
+      <configuration name="LeilaoDaoTest.listaSomenteOsLeiloesDoUsuario" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -434,18 +453,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3286119" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3972028" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29650348" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12982005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17095116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -465,20 +484,77 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/br/com/pm73/Teste.java">
+    <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/UsuarioDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="782">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dominio/Leilao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/LeilaoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <element signature="e#1011#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/curso/CriaTabelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/UsuarioDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="289">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/br/com/pm73/Teste.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/UsuarioDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
@@ -501,20 +577,44 @@
     <entry file="file://$PROJECT_DIR$/caelum.db.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dataBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/UsuarioDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="123">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/LeilaoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="e#1011#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dominio/Lance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dominio/Leilao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="251">
+          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
           <folding>
             <element signature="e#1024#1025#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
@@ -522,17 +622,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dao/LeilaoDao.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/pm73/dataBuilder/LeilaoBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="51" />
+        <state relative-caret-position="156">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+        <state relative-caret-position="931">
+          <caret line="355" column="5" selection-start-line="355" selection-start-column="5" selection-end-line="355" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/br/com/pm73/dao/LeilaoDaoTestWithDataBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
